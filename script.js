@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  var i = 0;
   var gameOn = false; // game off
   var userSeq = []; // stores user sequence
   var simonSeq = []; // stores game sequence
@@ -90,7 +89,7 @@ $(document).ready(function() {
   //error function
   function displayError() {
     $(".count").text("Err");
-    // strict --> level = 0;
+    // strict
     if (strict) {
       level = 0;
       simonSeq = [];
@@ -108,17 +107,13 @@ $(document).ready(function() {
   function playSound(id) {
     if (id === "green") {
       var sound = new Audio(boardSound[0]);
-      sound.play();
     } else if (id === "red") {
       var sound = new Audio(boardSound[1]);
-      sound.play();
     } else if (id === "yellow") {
       var sound = new Audio(boardSound[2]);
-      sound.play();
     } else if (id === "blue") {
       var sound = new Audio(boardSound[3]);
-      sound.play();
-    }
+    } sound.play();
   } // end sound function
   // add brightness and sound when color is pushed to sequence
   function addColorSound(id) {
