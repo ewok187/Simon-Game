@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald");
+
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png");
+}
+
+.game {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border: 4px solid black;
+  position: relative;
+  border-radius: 100%;
+}
+
+.colors {
+  width: 196px;
+  height: 196px;
+  margin: auto;
+  border: 4px solid black;
+  float: left;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  background: #ece7ee;
+  z-index: 100;
+  position: absolute;
+  border: 7px solid black;
+  border-radius: 100%;
+  top: 50%;
+  right: 50%;
+  margin: -100px -100px 0px 0;
+}
+
+.copyright {
+  font-size: 0.4em;
+  position: relative;
+  top: -15px;
+  left: -5px;
+}
+
+.counter {
+  padding-top: 15px;
+}
+
+.count {
+  font-family: monospace;
+  color: #430710;
+  padding: 0px;
+  font-size: 1.8em;
+  width: 60px;
+  background-color: #32050c;
+  position: relative;
+  border: 4px solid #222;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.switcher {
+  height: 20px;
+  width: 40px;
+  background-color: #222;
+  position: relative;
+  top: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.switch {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #3193de;
+  position: relative;
+  border: 1px solid #333;
+}
+
+.btn {
+  height: 25px;
+  border-radius: 100%;
+  margin-bottom: 7px;
+}
+
+.text {
+  color: #222;
+  font-family: "Oswald", Arial, sans;
+  font-size: 0.7em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.start {
+  margin: 0 5px 0 5px;
+}
+
+.brand {
+  margin: 5px 0 10px 10px;
+  font-family: "Alfa Slab One", cursive;
+  color: #222;
+  font-size: 2.7em;
+}
+
+.controller {
+  margin: -20px 0 0 0;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.onoff {
+  margin-top: -10px;
+}
+
+#green {
+  background: #00a74a;
+  border-top-left-radius: 100%;
+}
+
+#red {
+  background: #9f0f17;
+  border-top-right-radius: 100%;
+}
+
+#yellow {
+  background: #cca707;
+  border-bottom-left-radius: 100%;
+}
+
+#blue {
+  background: #094a8f;
+  border-bottom-right-radius: 100%;
+}
+
+#signature {
+  color: #212529;
+}
